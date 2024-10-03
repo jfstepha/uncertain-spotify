@@ -65,3 +65,5 @@ print(df['show'].value_counts().sort_values())
 #print(artist_list)
 #for artist in artist_list:
 #    print(f"artist: {artist}")
+
+print(f"Paste {playlist_filename} into https://www.spotlistr.com/search/textbox")
