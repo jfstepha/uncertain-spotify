@@ -9,3 +9,6 @@ Scrape the Uncertain FM slack channel and create spotify playlists
 * Open the new playlist in Spotify
 
 A table of the songs and shows is in `table.txt`
+
+
+Todo: checkout this project: https://github.com/stieterd/playlist-generator/blob/main/main.py see if I can connect directly to spotify.

@@ -12,8 +12,12 @@ i=0
 show = "unknown"
 episode = "unknown"
 shows = ["VERY SELDOM CASUAL", "UNKNOWN FREQUENCIES", "SEEKING THE NIGHTED THRONE",
-         "ENJOY THE SILENCE", "GUNS OR BUTTER", "UNCERTAIN", "THE GROOVE SCENARIO", "PLAYING AT SHADOWS" ]
-bad_artists = ["Worbler", "Silent g", "Mike McKenzie"]
+        "ENJOY THE SILENCE", "GUNS OR BUTTER", "UNCERTAIN", "THE GROOVE SCENARIO", "PLAYING AT SHADOWS",
+        "ENJOY YOUR DAY", "MC & JEFF", "RADIO FREE ENTROPY", "ALLSTON PUDDING",
+        "RAT FEVER", "POLICYMAKER", "GRAHAMS' COMPLETELY NORMAL RADIO PROGRAMME",
+        "AMERICAN DEBAUCHERY"  ]
+bad_artists = ["Worbler", "Silent g", "Mike McKenzie", "Matt Lavallee", "DJ Senator John Blutarski", "Duane Bruce",
+               "DJ Mike F"]
 
 
 with open(filename, 'r',encoding='utf-8') as f:
@@ -27,7 +31,14 @@ with open(filename, 'r',encoding='utf-8') as f:
                 print(f"ignoring bad artist {artist}")
             elif artist.upper() in shows:
                 show = artist.upper()
-                episode = title
+                match = re.search('OTW: .*', title)
+                if match:
+                    episode = "unknown"
+                else:
+                    episode = title
+            elif title.upper() in shows:
+                show = title.upper()
+                episode = "unknown"
             else:
                 df.loc[i] = [i, show, episode, artist, title]
                 i += 1
