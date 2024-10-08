@@ -1,5 +1,6 @@
 import re
 import pandas as pd
+from datetime import date
 
 
 filename = "slacklog.txt"
@@ -50,20 +51,30 @@ with open(filename, 'r',encoding='utf-8') as f:
                 show = artist
                 episode = title
 
-
+today = date.today()
 print("---------- table ---------")
 print(df.to_string())
+# for today
 with open(table_filename, 'w', encoding='utf-8') as f:
     print(df.to_string(), file=f)
+# for archive
+table_filename = f"tables/table-{today}.txt"
+with open(table_filename, 'w', encoding='utf-8') as f:
+    print(df.to_string(), file=f)
+
 
 
 print("------- top artists ------")
 print(df['artist'].value_counts().sort_values())
 
-# print("------- playlist ---------")
-# print(df[['artist','track']].to_csv(header=False,index=False, sep=' ', quoting=None) )
-# df[['artist','track']].to_csv(playlist_filename, header=False,index=False, sep=',', quoting=None)
 
+# for today:
+with open(playlist_filename, 'w', encoding='utf-8') as f:
+    for index, row in df.iterrows():
+        print(f"{row['artist']}, {row['track']}", file=f)
+
+# for archive:
+playlist_filename = f"playlists/playlist-{today}.txt"
 with open(playlist_filename, 'w', encoding='utf-8') as f:
     for index, row in df.iterrows():
         print(f"{row['artist']}, {row['track']}", file=f)
@@ -77,4 +88,5 @@ print(df['show'].value_counts().sort_values())
 #for artist in artist_list:
 #    print(f"artist: {artist}")
 
+print(f"Date: {today}")
 print(f"Paste {playlist_filename} into https://www.spotlistr.com/search/textbox")
