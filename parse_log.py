@@ -4,10 +4,14 @@ from datetime import date
 
 
 filename = "slacklog.txt"
+schedule_filename = "schedule.txt"
 playlist_filename = "playlist.txt"
 table_filename = "table.txt"
+show_list = []
 
-df = pd.DataFrame(columns=["seq", "show", "episode", "artist","track"])
+use_schedule_file = True
+
+df = pd.DataFrame(columns=["seq", "time", "scheduled_show", "show", "episode", "artist","track"])
 
 i=0
 show = "unknown"
@@ -16,14 +20,61 @@ shows = ["VERY SELDOM CASUAL", "UNKNOWN FREQUENCIES", "SEEKING THE NIGHTED THRON
         "ENJOY THE SILENCE", "GUNS OR BUTTER", "UNCERTAIN", "THE GROOVE SCENARIO", "PLAYING AT SHADOWS",
         "ENJOY YOUR DAY", "MC & JEFF", "RADIO FREE ENTROPY", "ALLSTON PUDDING",
         "RAT FEVER", "POLICYMAKER", "GRAHAMS' COMPLETELY NORMAL RADIO PROGRAMME",
-        "AMERICAN DEBAUCHERY"  ]
+        "AMERICAN DEBAUCHERY", "YEAH RIGHT", "DUAL CASSETTE DECK", "TWO HOUR MUSIC FUN RADIO FRIEND HOUR",
+        "COVER LOVER", "MAURA DOT COM SLASH UNCERTAIN" ]
 bad_artists = ["Worbler", "Silent g", "Mike McKenzie", "Matt Lavallee", "DJ Senator John Blutarski", "Duane Bruce",
-               "DJ Mike F"]
+               "DJ Mike F", "break", "Josh L", "Jeff", "kristen"]
 
+print("--- parsing schedule ----")
+with open(schedule_filename, 'r',encoding='utf-8') as f:
+    for line in f:
+        match = re.search("^(\\d+)([ap])\\s+(.*)", line)
+        if match:
+            hour = match.group(1)
+            am_pm = match.group(2)
+            name = match.group(3)
+            print(f"Time: {hour}:00 {am_pm}: {name}")
+            show_dict = {"hour":hour, "am_pm":am_pm, "name":name}
+            show_list.append(show_dict)
+        match = re.search("^END", line)
+        if match:
+            print("found end")
+            break
+        
+def find_24_hour(hour, am):
+    time_24h = 0
+    if am:
+        if hour == 12:
+            time_24h = 0
+        else:
+            time_24h = hour
+    else:
+        if hour == 12:
+            time_24h = 12
+        else:
+            time_24h = hour + 12
+    return time_24h
+
+def find_show_name(hour, minute, am):
+    time_24h = find_24_hour(int(hour), am)
+    show_name ="unknown"
+    print(f"searching for show at {hour}:{minute} {am} 24h:{time_24h}")
+    for show_dict in show_list:
+        show_24h = find_24_hour( int(show_dict["hour"]), show_dict["am_pm"]=="a")
+        print( f"   searching show {show_dict['name']} at {show_24h}")
+        if time_24h < show_24h:
+            print(f"found show:{show_name}")
+            return(show_name)
+        else:
+            show_name = show_dict['name']
 
 with open(filename, 'r',encoding='utf-8') as f:
+    am = True
+    after_1am = False
+    time="unknown"
+    day = "unknown"
+    scheduled_show = "unknown"
     for line in f:
-#        print(line)
         match = re.search('now playing: (.*), "(.*)"', line)
         if match:
             artist = match.group(1)
@@ -36,12 +87,12 @@ with open(filename, 'r',encoding='utf-8') as f:
                 if match:
                     episode = "unknown"
                 else:
-                    episode = title
+                    episode = title[:80]
             elif title.upper() in shows:
                 show = title.upper()
                 episode = "unknown"
             else:
-                df.loc[i] = [i, show, episode, artist, title]
+                df.loc[i] = [i, time, scheduled_show, show, episode, artist, title]
                 i += 1
         match = re.search('UP NEXT: (.*) (#.*) with', line)
         if match:
@@ -50,6 +101,23 @@ with open(filename, 'r',encoding='utf-8') as f:
             if artist in shows:
                 show = artist
                 episode = title
+        match = re.search('^(\d+):(\d+)$', line)
+        if match:
+            hours = int(match.group(1))
+            minutes = match.group(2)
+            if hours < 12 and not after_1am:
+                after_1am = True
+            if hours == 12 and after_1am:
+                am = False
+            if am:
+                time=f"{hours}:{minutes.zfill(2)} AM"
+            else:
+                time=f"{hours}:{minutes.zfill(2)} PM"
+            if use_schedule_file:
+                scheduled_show = find_show_name(hours, minutes, am)
+
+
+
 
 today = date.today()
 print("---------- table ---------")
@@ -90,3 +158,37 @@ print(df['show'].value_counts().sort_values())
 
 print(f"Date: {today}")
 print(f"Paste {playlist_filename} into https://www.spotlistr.com/search/textbox")
+
+
+# this became too complicated to parse from the web page because it's not a simple table
+#### parse schedule
+#days = ["MON","TUE","WED","THU","FRI","SAT","SUN"]
+#today = days.index(day.upper())
+#print(f"today's schedule for {day} ({today})")
+#with open(schedule_filename, 'r',encoding='utf-8') as f:
+#    this_line = ""
+#    in_table = False
+#    for line in f:
+#        if in_table:
+#            match = re.search('^\\d[ap]', line)
+#            if match:
+#                print("------------")
+#                row = this_line.split("\t")
+#                print(','.join(row))
+#                #print (len(row))
+#                #if len(row) > 1:
+#                #    print( row[today])
+#                
+#                this_line = row[-1] + line[:-1] + " "
+#                row = row[:-1]
+#            else:
+#                this_line += line[:-1] + " "
+#        else:
+#            match = re.search('MON\tTUE\tWED\tTHU\tFRI\tSAT\tSUN', line)
+#            if match:
+#                print("Table found")
+#                in_table = True
+
+
+
+    
