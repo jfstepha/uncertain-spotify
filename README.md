@@ -23,4 +23,19 @@ Host github-personal
 
 * Then clone git@github-personal:jfstepha/uncertain-spotify
 
+To get python working the first time:
+```
+virtualenv venv
+source venv/bin/activate
+pip install pandas
+```
+
+To run it:
+```
+source venv/bin/activate
+python3 parse_log.py
+```
+
+
+
 Todo: checkout this project: https://github.com/stieterd/playlist-generator/blob/main/main.py see if I can connect directly to spotify.
