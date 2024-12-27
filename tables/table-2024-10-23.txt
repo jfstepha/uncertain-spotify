@@ -1,0 +1,294 @@
+     seq                           show                                        episode                               artist                                                                track
+0      0                        unknown                                        unknown                  Ready for the World                                                            Oh Sheila
+1      1                        unknown                                        unknown                              Chromeo                                        Come Alive (feat. Toro Y Moi)
+2      2                        unknown                                        unknown                      Giorgio Moroder                                                             La Disco
+3      3                        unknown                                        unknown                              Orbital                                                             P.H.U.K.
+4      4                        unknown                                        unknown                               Deorro                                Bailar (feat. Pitbull & Elvis Crespo)
+5      5                        unknown                                        unknown                                Robyn                                                 Call Your Girlfriend
+6      6                        unknown                                        unknown                              Rihanna                                                                  S&M
+7      7                        unknown                                        unknown                       Britney Spears                                                  Till The World Ends
+8      8                        unknown                                        unknown                       Fedde Le Grand                           Put Your Hands Up for Detroit (Radio Edit)
+9      9                        unknown                                        unknown                         Depeche Mode                              Just Can't Get Enough (Dirty South Mix)
+10    10                        unknown                                        unknown                    Whodini & DJ Icey                               Five Minutes of Funk (Icey's 7" Magic)
+11    11                        unknown                                        unknown                           Dis N' Dat                             Party (feat. 69 Boyz & Quad City D.J.'s)
+12    12                        unknown                                        unknown                                Duice                                                          Dazzey Duks
+13    13                        unknown                                        unknown                          Splack Pack      Shake That Ass Bitch [Blutarski Still-Explicit Radio-Only Edit]
+14    14                        unknown                                        unknown     Iggy & The Stooges / Salt-N-Pepa                                                     No Fun / Push It
+15    15                        unknown                                        unknown                             The Grid                                                          Swamp Thing
+16    16                        unknown                                        unknown                           Power-Pill                                      Pac-Man (Original Full Version)
+17    17                        unknown                                        unknown                      LCD Soundsystem                                                         Tribulations
+18    18                        unknown                                        unknown              W&W, Hardwell & Lil Jon                                                       Live the Night
+19    19                        unknown                                        unknown                        DJs from Mars  Phat Ass Drop (How To Produce a Club Track Today) [Main Radio Edit]
+20    20                        unknown                                        unknown                        Lords of Acid                                                       Let's Get High
+21    21                        unknown                                        unknown                        One Direction                                               Live While We're Young
+22    22                        unknown                                        unknown                               *NSYNC                                                  Pop (Radio Version)
+23    23                        unknown                                        unknown                           L.A. Style                                                  James Brown Is Dead
+24    24                        unknown                                        unknown                            Daft Punk                                                             Derezzed
+25    25                        unknown                                        unknown                   The Crystal Method                                                       Trip Like I Do
+26    26                        unknown                                        unknown                            Digikid84                                                     Bboy Underground
+27    27                        unknown                                        unknown                         The Gap Band                                             You Dropped a Bomb On Me
+28    28                        unknown                                        unknown                      The Stone Roses                                                  She Bangs the Drums
+29    29                        unknown                                        unknown                      Sinéad O'Connor                                                             Mandinka
+30    30                        unknown                                        unknown                           Paul Simon                                                           Kodachrome
+31    31                        unknown                                        unknown                        Daniel Lanois                                          Sleeping In The Devil's Bed
+32    32                        unknown                                        unknown                                   U2                                                  With or Without You
+33    33                        unknown                                        unknown                         Joy Division                                                           Shadowplay
+34    34                        unknown                                        unknown                          Iron Maiden                                                         Wasted Years
+35    35                        unknown                                        unknown                      Concrete Blonde                                                 Dance Along the Edge
+36    36                        unknown                                        unknown         Creedence Clearwater Revival                                                    Born On The Bayou
+37    37                        unknown                                        unknown                      LCD Soundsystem                                                        Bye Bye Bayou
+38    38                        unknown                                        unknown                            Liz Phair                                                      Johnny Sunshine
+39    39                        unknown                                        unknown                               Pixies                                                         Tony's Theme
+40    40                        unknown                                        unknown                  The Magnetic Fields                              The Luckiest Guy On The Lower East Side
+41    41                        unknown                                        unknown                   The Mountain Goats                             The Best Ever Death Metal Band in Denton
+42    42                        unknown                                        unknown                          Tenacious D                                                            Wonderboy
+43    43                        unknown                                        unknown                      HomeStar Runner                                                              Trogdor
+44    44                        unknown                                        unknown                     The Replacements                                                    Bastards of Young
+45    45                        unknown                                        unknown                            D-Tension                                                       Kenmore Square
+46    46                        unknown                                        unknown          The Mighty Mighty Bosstones                                                  They Came To Boston
+47    47                        unknown                                        unknown                              Tove Lo                                                   Habits (Stay High)
+48    48                        unknown                                        unknown                                Annie                                              April (feat. Richard X)
+49    49                        unknown                                        unknown                             The 1975                                                        Somebody Else
+50    50                        unknown                                        unknown                             Al Green                                                  Let's Stay Together
+51    51                        unknown                                        unknown                         Beastie Boys                                                      Get It Together
+52    52                        unknown                                        unknown                                Björk                                                       Possibly Maybe
+53    53                        unknown                                        unknown                        Peter Gabriel                             Games Without Frontiers (Massive/DB Mix)
+54    54                        unknown                                        unknown                        Still Corners                                                         Black Lagoon
+55    55                        unknown                                        unknown                    Flight Facilities                                                        Clair De Lune
+56    56                        unknown                                        unknown                           Basshunter                                                           Boten Anna
+57    57                        unknown                                        unknown      Love Regenerator, Calvin Harris                                            Hypnagogic (I Can't Wait)
+58    58                        unknown                                        unknown                         David Guetta                                 Bang My Head (feat. Sia & Fetty Wap)
+59    59                        unknown                                        unknown                         Depeche Mode                                                          Strangelove
+60    60                        unknown                                        unknown                           S.O.S Band                                         Take Your Time (Do It Right)
+61    61                        unknown                                        unknown                Elton John & Dua Lipa                                              Cold Heart (PNAU Remix)
+62    62                        unknown                                        unknown                             Cut Copy                                  Standing In The Middle Of The Field
+63    63                        unknown                                        unknown                          Dub Pistols                                       Rapture (featuring Terry Hall)
+64    64                        unknown                                        unknown                 They Might Be Giants                              S-E-X-X-Y (Kendal Mintcake Total Remix)
+65    65                        unknown                                        unknown                           Underworld                                                The Hump (Wild Beast)
+66    66                        unknown                                        unknown                              Bauhaus                               Kick in the Eye (Remix Single Version)
+67    67                        unknown                                        unknown                              Messiah                                                     Temple of Dreams
+68    68                        unknown                                        unknown                             Bigod 20                                                              America
+69    69                        unknown                                        unknown                  Pop Will Eat Itself                                                          Def Con One
+70    70                        unknown                                        unknown                         DJ Crook Air                                                          Usher Foley
+71    71                        unknown                                        unknown                        Alec Guinness                                    Resolutions When I Come to Be Old
+72    72                ALLSTON PUDDING                                            #18                          Galaxie 500                                                         I Wanna Live
+73    73                ALLSTON PUDDING                                            #18                               Lutalo                                             Ocean Swallows Him Whole
+74    74                ALLSTON PUDDING                                            #18                            THUS LOVE                                                         On The Floor
+75    75                ALLSTON PUDDING                                            #18       Ezra Cohen & The Big City Band                                                            Kick Back
+76    76                ALLSTON PUDDING                                            #18                          Doug Tuttle                                                             Dog Eyes
+77    77                ALLSTON PUDDING                                            #18                                Joyer                                                                Crown
+78    78                ALLSTON PUDDING                                            #18                              Hereboy                                                             moonblue
+79    79                ALLSTON PUDDING                                            #18                               jimrat                                                                 neck
+80    80                ALLSTON PUDDING                                     Talk Break                              hemlock                                                                 Full
+81    81                ALLSTON PUDDING                                     Talk Break                               Roxy 2                                                                 Silo
+82    82                ALLSTON PUDDING                                     Talk Break                           Office Dog                                                               Intact
+83    83                ALLSTON PUDDING                                     Talk Break                            2nd Grade                                              I Wanna Be On Your Mind
+84    84                ALLSTON PUDDING                                     Talk Break                                Tasha                                                        The Beginning
+85    85                ALLSTON PUDDING                                     Talk Break                        Caroline Says                                                          Palm Reader
+86    86                ALLSTON PUDDING                                     Talk Break                                 Addy                                                             Rosemary
+87    87                ALLSTON PUDDING                                     Talk Break                               Grumpy                                                              Protein
+88    88                ALLSTON PUDDING                                     Talk Break                       Euphoria Again                                                        Sky Remembers
+89    89                ALLSTON PUDDING                                     Talk Break                          Waxahatchee                                               Much Ado About Nothing
+90    90                ALLSTON PUDDING                                     Talk Break                          Blue Smiley                                                                 pond
+91    91                ALLSTON PUDDING                                     Talk Break                               Glixen                                                          Sick Silent
+92    92                ALLSTON PUDDING                                     Talk Break                        Her New Knife                                                         purepurepure
+93    93                ALLSTON PUDDING                                     Talk Break                            Blue Zero                                                             fortress
+94    94                ALLSTON PUDDING                                     Talk Break                           Mint Field                                                 Sensibilidad dormida
+95    95                ALLSTON PUDDING                                     Talk Break                           Tanukichan                                          It Gets Easier (feat. Wisp)
+96    96                ALLSTON PUDDING                                     Talk Break                             Mo Dotti                                                         whirling sad
+97    97                ALLSTON PUDDING                                     Talk Break                              charlie                                                                   ES
+98    98                ALLSTON PUDDING                                     Talk Break                    Soft Blue Shimmer                                                     FREQUENCY HAMMER
+99    99                ALLSTON PUDDING                                     Talk Break                               Desire                                                              Vampire
+100  100                ALLSTON PUDDING                                     Talk Break                          Jim Legxacy                                                           aggressive
+101  101                ALLSTON PUDDING                                     Talk Break                                BABii          The Law of Club & Fang (feat. Iglooghost, MUN SING & Pholo)
+102  102                ALLSTON PUDDING                                     Talk Break                                 J.P.                                                                 Lose
+103  103                ALLSTON PUDDING                                     Talk Break                        Leon Vynehall                                                              SHELLAC
+104  104                ALLSTON PUDDING                                     Talk Break                              Caribou                                                               Volume
+105  105                ALLSTON PUDDING                                     Talk Break                                Yaeji                                                               booboo
+106  106                ALLSTON PUDDING                                     Talk Break                          Kassie Krut                                                             Reckless
+107  107                ALLSTON PUDDING                                     Talk Break                            Safe Mind                                                              6' Pole
+108  108                ALLSTON PUDDING                                     Talk Break                            Dj Babatr                                                  Sucio (feat. LYZZA)
+109  109                ALLSTON PUDDING                                     Talk Break                                   U2                                                          Zoo Station
+110  110                ALLSTON PUDDING                                     Talk Break                       Elvis Costello                                     Waiting For the End of the World
+111  111                ALLSTON PUDDING                                     Talk Break                              The Jam                                  The Modern World (Censored Version)
+112  112                ALLSTON PUDDING                                     Talk Break                     Mission Of Burma                                                   Academy Fight Song
+113  113                ALLSTON PUDDING                                     Talk Break                               Pixies                                                   All Over The World
+114  114                ALLSTON PUDDING                                     Talk Break                          Yo La Tengo                                              Barnaby, Hardly Working
+115  115                ALLSTON PUDDING                                     Talk Break                         Peter Murphy                                            Indigo Eyes (Single Edit)
+116  116                ALLSTON PUDDING                                     Talk Break                         The Go! Team                                                  Bull In The Heather
+117  117                ALLSTON PUDDING                                     Talk Break           Shane MacGowan & The Popes                                       Haunted (with Sinéad O'Connor)
+118  118                ALLSTON PUDDING                                     Talk Break                          Roy Orbison                                                            In Dreams
+119  119                ALLSTON PUDDING                                     Talk Break             The Airborne Toxic Event                                             Sometime Around Midnight
+120  120                ALLSTON PUDDING                                     Talk Break                           Billy Joel                                                         The Stranger
+121  121                ALLSTON PUDDING                                     Talk Break                           Elton John                            I Guess That's Why They Call It The Blues
+122  122                ALLSTON PUDDING                                     Talk Break                      LCD Soundsystem                                                       Losing My Edge
+123  123                ALLSTON PUDDING                                     Talk Break                      sleepmakeswaves                                                            Verdigris
+124  124                ALLSTON PUDDING                                     Talk Break                       The Fever Haze                                                    How Lucky My Eyes
+125  125                ALLSTON PUDDING                                     Talk Break                        Computer Kill                                                        Sing and Play
+126  126                ALLSTON PUDDING                                     Talk Break                          Lesser Care                                                        Something New
+127  127                ALLSTON PUDDING                                     Talk Break                         Mark E. Moon                                                             Daylight
+128  128                ALLSTON PUDDING                                     Talk Break                           Urban Heat                                                        Say the Words
+129  129                ALLSTON PUDDING                                     Talk Break                       The Sweet Kill                                                              Creeper
+130  130                ALLSTON PUDDING                                     Talk Break                            Swan Wash                                                   Lights Are Outside
+131  131                ALLSTON PUDDING                                     Talk Break                               VR SEX                                                    Jenny Killer Glue
+132  132                ALLSTON PUDDING                                     Talk Break                            COLD EYES                                                     Take It All Back
+133  133                ALLSTON PUDDING                                     Talk Break                      Don't Get Lemon                                                Pomp And Circumstance
+134  134                ALLSTON PUDDING                                     Talk Break                         Molchat Doma                                                        Belaya Polosa
+135  135                ALLSTON PUDDING                                     Talk Break                             SPECTRES                                                           Real World
+136  136                ALLSTON PUDDING                                     Talk Break                       Locust Revival                                                           Fleshworld
+137  137                ALLSTON PUDDING                                     Talk Break                        Russian Baths                                                                 Pair
+138  138                ALLSTON PUDDING                                     Talk Break                               Pixies                                                       Crackity Jones
+139  139             PLAYING AT SHADOWS                     Initializing broadcast #50                          David Bowie                                                    Where Are We Now?
+140  140             PLAYING AT SHADOWS                     Initializing broadcast #50                          Angel Olsen                                                               Sister
+141  141             PLAYING AT SHADOWS                     Initializing broadcast #50                                 Beck                                                        Beautiful Way
+142  142             PLAYING AT SHADOWS                     Initializing broadcast #50                 Two Door Cinema Club                                                  Do You Want It All?
+143  143             PLAYING AT SHADOWS                     Initializing broadcast #50                          St. Vincent                                                        Strange Mercy
+144  144             PLAYING AT SHADOWS                     Initializing broadcast #50                         Phil Collins                                                         Take Me Home
+145  145             PLAYING AT SHADOWS                     Initializing broadcast #50                                 ABBA                                                         Under Attack
+146  146             PLAYING AT SHADOWS                                        (BREAK)                        Joni Mitchell                                                       Both Sides Now
+147  147             PLAYING AT SHADOWS                                        (BREAK)                Crosby, Stills & Nash                                                Suite: Judy Blue Eyes
+148  148             PLAYING AT SHADOWS                                        (BREAK)                                Queen                                                      Love Of My Life
+149  149             PLAYING AT SHADOWS                                        (BREAK)                          The Zombies                                                   Time of the Season
+150  150             PLAYING AT SHADOWS                                        (BREAK)                      Johnny Hallyday                                                        San Francisco
+151  151             PLAYING AT SHADOWS                                        (BREAK)                      The Stone Roses                                                           Fools Gold
+152  152             PLAYING AT SHADOWS                                        (BREAK)                         Paul van Dyk                          Nothing but You (feat. Hemstock & Jennings)
+153  153             PLAYING AT SHADOWS                                        (BREAK)                             Röyksopp                                                    Dead to the World
+154  154             PLAYING AT SHADOWS                                        (BREAK)                        Class Actress                                                              Weekend
+155  155             PLAYING AT SHADOWS                                        (BREAK)                             Lemonade                                                            Whitecaps
+156  156             PLAYING AT SHADOWS                                        (BREAK)                           Com Truise                                                              Air Cal
+157  157             PLAYING AT SHADOWS                                        (BREAK)                   The Japanese House                                             went to meet her (intro)
+158  158             PLAYING AT SHADOWS                                        (BREAK)                   The Japanese House                                              Maybe You're the Reason
+159  159             PLAYING AT SHADOWS                                        (BREAK)                    Sébastien Tellier                                                       La ritournelle
+160  160             PLAYING AT SHADOWS                                        (BREAK)                           Rilo Kiley                                                        Silver Lining
+161  161             PLAYING AT SHADOWS                                        (BREAK)                              MIDI-96                                            CANYON.MID (OPL3 version)
+162  162             PLAYING AT SHADOWS                                        (BREAK)                         Led Zeppelin                                                              Kashmir
+163  163             PLAYING AT SHADOWS                                        (BREAK)                          Japandroids                                                           Arc Of Bar
+164  164             PLAYING AT SHADOWS                                        (BREAK)                         Harry Styles                                                     Watermelon Sugar
+165  165             PLAYING AT SHADOWS                                        (BREAK)                          Will Powers                                                Adventures In Success
+166  166             PLAYING AT SHADOWS                                        (BREAK)                              Dr. Dre                              Nuthin' But A "G" Thang (f. Snoop Dogg)
+167  167             PLAYING AT SHADOWS                                        (BREAK)                              OutKast                                              Ms. Jackson (Radio Mix)
+168  168             PLAYING AT SHADOWS                                        (BREAK)                Killer Mike & Big Boi                                                         A.D.I.D.A.S.
+169  169             PLAYING AT SHADOWS                                        (BREAK)                          Sofi Tukker                                                           Purple Hat
+170  170             PLAYING AT SHADOWS                                        (BREAK)     DJ Jazzy Jeff & The Fresh Prince                                    Summertime '98 (Soul Power Remix)
+171  171             PLAYING AT SHADOWS                                        (BREAK)               Post Malone & Swae Lee                        Sunflower (Spider-Man: Into the Spider-Verse)
+172  172             PLAYING AT SHADOWS                                        (BREAK)                      Whitney Houston                                                 Greatest Love Of All
+173  173             PLAYING AT SHADOWS                                        (BREAK)                          Fred Rogers                              It's Such a Good Feeling (Weekend Song)
+174  174             PLAYING AT SHADOWS                                        (BREAK)                          Cynthia Fee                    The Golden Girls ("Thank You For Being A Friend")
+175  175             PLAYING AT SHADOWS                                        (BREAK)                          Cass Elliot                         Make Your Own Kind of Music (Single Version)
+176  176             PLAYING AT SHADOWS                                        (BREAK)                              The Who                                                         Baba O'Riley
+177  177             PLAYING AT SHADOWS                                        (BREAK)                         The Specials                                                           Ghost Town
+178  178             PLAYING AT SHADOWS                                        (BREAK)                             Hot Karl                         Let's Talk (feat. MC Serch) [feat. MC Serch]
+179  179             PLAYING AT SHADOWS                                        (BREAK)                               Afu-Ra                                                           God of Rap
+180  180             PLAYING AT SHADOWS                                        (BREAK)                        Soul Hooligan                                                              Algebra
+181  181             PLAYING AT SHADOWS                                        (BREAK)                        Radio Citizen                                                The Hop (feat. Bajka)
+182  182             PLAYING AT SHADOWS                                        (BREAK)                           Craig Mack                                      Flava In Ya Ear (Album Version)
+183  183             PLAYING AT SHADOWS                                        (BREAK)                       Desmond Dekker                                                    007 (Shanty Town)
+184  184             PLAYING AT SHADOWS                                        (BREAK)                           Lily Allen                                                                Smile
+185  185             PLAYING AT SHADOWS                                        (BREAK)                          Billy Bragg                                        Greetings to the New Brunette
+186  186             PLAYING AT SHADOWS                                        (BREAK)                         Michael Penn                                                              No Myth
+187  187             PLAYING AT SHADOWS                                        (BREAK)                        Matthew Sweet                                                       Sick of Myself
+188  188             PLAYING AT SHADOWS                                        (BREAK)                    The Divine Comedy                                                       Gin Soaked Boy
+189  189             PLAYING AT SHADOWS                                        (BREAK)                     Inspiral Carpets                                                   Two Worlds Collide
+190  190             PLAYING AT SHADOWS                                        (BREAK)                      Alice In Chains                                                          I Stay Away
+191  191             PLAYING AT SHADOWS                                        (BREAK)                       Linda Ronstadt                                                 When Will I Be Loved
+192  192             PLAYING AT SHADOWS                                        (BREAK)                       Sculpture Club                                                         Black Coffee
+193  193             PLAYING AT SHADOWS                                        (BREAK)                      Kyle MacLachlan                                                        The Milky Way
+194  194             PLAYING AT SHADOWS                                        (BREAK)                        The Easybeats                                                    Friday On My Mind
+195  195             PLAYING AT SHADOWS                                        (BREAK)                       Mephiskapheles                                             The Bumble Bee Tuna Song
+196  196             PLAYING AT SHADOWS                                        (BREAK)                         Leon Redbone                       Mr. Belvedere ("According To Our New Arrival")
+197  197             PLAYING AT SHADOWS                                        (BREAK)                       Coyote Shivers                                                            Sugarhigh
+198  198             PLAYING AT SHADOWS                                        (BREAK)                      Hindu Love Gods                                                      Raspberry Beret
+199  199             PLAYING AT SHADOWS                                        (BREAK)                               Cranes                                                         Shining Road
+200  200             PLAYING AT SHADOWS                                        (BREAK)                      Stephanie Mills                                     Bit By Bit (Theme From "Fletch")
+201  201             PLAYING AT SHADOWS                                        (BREAK)                          Julian Cope                                                World Shut Your Mouth
+202  202             PLAYING AT SHADOWS                                        (BREAK)                                Da Da                                                       Dizz Knee Land
+203  203             PLAYING AT SHADOWS                                        (BREAK)                          Tenacious D                                                            Explosivo
+204  204             PLAYING AT SHADOWS                                        (BREAK)                             Rockpile                                                      Teacher Teacher
+205  205             PLAYING AT SHADOWS                                        (BREAK)                                Sloan                                                         Underwhelmed
+206  206             PLAYING AT SHADOWS                                        (BREAK)                       Gnarls Barkley                                                                Crazy
+207  207             PLAYING AT SHADOWS                                        (BREAK)                       Matthew Wilder                                                      Break My Stride
+208  208             PLAYING AT SHADOWS                                        (BREAK)                             MC Chris                                                         Fett's Vette
+209  209             PLAYING AT SHADOWS                                        (BREAK)                 Sultans of Ping F.C.                                                   Where's Me Jumper?
+210  210             PLAYING AT SHADOWS                                        (BREAK)                 They Might Be Giants                                                  The End Of The Tour
+211  211             PLAYING AT SHADOWS                                        (BREAK)                         Suzanne Vega                                                    Blood Makes Noise
+212  212             PLAYING AT SHADOWS                                        (BREAK)                          Jesus Jones                                                              Blissed
+213  213             PLAYING AT SHADOWS                                        (BREAK)                              The Orb                                       Little Fluffy Clouds (7" Edit)
+214  214             PLAYING AT SHADOWS                                        (BREAK)   The Stone Roses & Justin Robertson                                   Waterfall (Justin Robertson's Mix)
+215  215             PLAYING AT SHADOWS                                        (BREAK)                                  Low                                                                Words
+216  216             PLAYING AT SHADOWS                                        (BREAK)                          Tommy James                             Crystal Blue Persuasion (Single Version)
+217  217             PLAYING AT SHADOWS                                        (BREAK)                     The Flaming Lips                                              A Spoonful Weighs a Ton
+218  218             PLAYING AT SHADOWS                                        (BREAK)                          The Beatles                                                             Sun King
+219  219             PLAYING AT SHADOWS                                        (BREAK)                          The Zombies                                                   Time Of The Season
+220  220             PLAYING AT SHADOWS                                        (BREAK)     King Gizzard & The Lizard Wizard                                                                Ice V
+221  221             PLAYING AT SHADOWS                                        (BREAK)                             The Cure                                    Just Like Heaven (Dizzy Mix 1990)
+222  222             PLAYING AT SHADOWS                                        (BREAK)                        Talking Heads                                                   Once In A Lifetime
+223  223             PLAYING AT SHADOWS                                        (BREAK)                        Robert Palmer                                                      Johnny and Mary
+224  224             PLAYING AT SHADOWS                                        (BREAK)                         Joy Division                                              Love Will Tear Us Apart
+225  225             PLAYING AT SHADOWS                                        (BREAK)                             The Cure                                                                 Push
+226  226             PLAYING AT SHADOWS                                        (BREAK)                           The Police                                                 Re-Humanise Yourself
+227  227             PLAYING AT SHADOWS                                        (BREAK)                              Orbital                                                         Time Becomes
+228  228                    COVER LOVER                                           #150                       Charlie Barnes                                                                Alone
+229  229                    COVER LOVER                                           #150                      Peter Fernandez                                                           Greg Wymer
+230  230                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                  The Bloodhound Gang                                                  The Choice is Yours
+231  231                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                         The Supremes          These Boots Are Made For Walking (SILO x Martin Wave remix)
+232  232                    COVER LOVER        Holy Covers Batman ... It's Show # 150!        Merril Bainbridge with Shaggy                                                       I Got You Babe
+233  233                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                    Weird Al Yankovic                                                          Polkamania!
+234  234                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                         Phil Collins                                                A Groovy Kind of Love
+235  235                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                       The Lemonheads                                                            Beautiful
+236  236                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                      Jimmy Eat World                              We Are Never Ever Getting Back Together
+237  237                    COVER LOVER        Holy Covers Batman ... It's Show # 150!  The Band of Heathens & Butch Walker                                                          Night Moves
+238  238                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                        Guns n' Roses                                                             New Rose
+239  239                    COVER LOVER        Holy Covers Batman ... It's Show # 150!                        Ozzy Osbourne                                                    Mississippi Queen
+240  240                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                   Fountains of Wayne                                               ... Baby One More Time
+241  241                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                          Sonic Youth                                                            Superstar
+242  242                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                       Grace Cummings                                                           Praise You
+243  243                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                              Nirvana                                                            Love Buzz
+244  244                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                              Madonna                                                         Ray of Light
+245  245                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                   Josh Weathers Band                                        I Will Always Love You (live)
+246  246                    COVER LOVER  A Countdown of Songs That Just Missed the Cut                          Fiona Apple                                I Want You (w/ Elvis Costello) (live)
+247  247                    COVER LOVER                    Counting Down From 34 to 27                          Paul Weller                                                    Wishing on a Star
+248  248                    COVER LOVER                    Counting Down From 34 to 27                           Chaka Khan                                                       I Feel For You
+249  249                    COVER LOVER                    Counting Down From 34 to 27                    Ike & Tina Turner                                                           Proud Mary
+250  250                    COVER LOVER                    Counting Down From 34 to 27             Christine and The Queens                                                              Freedom
+251  251                    COVER LOVER                    Counting Down From 34 to 27                          Dub Pistols                                           Rapture (feat. Terry Hall)
+252  252                    COVER LOVER                    Counting Down From 34 to 27                           MONOWHALES                                                  The Hand That Feeds
+253  253                    COVER LOVER                    Counting Down From 34 to 27                       Kelly Clarkson                                                    Happier Than Ever
+254  254                    COVER LOVER    NEXT WEEK: Our Annual Halloween Covers Show                                 Melt                                                         Harvest Moon
+255  255  MAURA DOT COM SLASH UNCERTAIN                                             #7                        maura dot com                                                      slash uncertain
+256  256  MAURA DOT COM SLASH UNCERTAIN                                             #7                     The Surfrajettes                                                   Spice Up Your Life
+257  257  MAURA DOT COM SLASH UNCERTAIN                                             #7                         The Come Ons                                                           Hip Check!
+258  258  MAURA DOT COM SLASH UNCERTAIN                                             #7                          April March                                                                 Baby
+259  259  MAURA DOT COM SLASH UNCERTAIN                                             #7                         The Shivvers                                                          No Reaction
+260  260  MAURA DOT COM SLASH UNCERTAIN                                             #7                             The Tubs                                                           Freak Mode
+261  261  MAURA DOT COM SLASH UNCERTAIN                                             #7                      The Casual Dots                                                        Gypsom Mortar
+262  262  MAURA DOT COM SLASH UNCERTAIN                                             #7                             Nap Eyes                                             Dark Mystery Enigma Bird
+263  263  MAURA DOT COM SLASH UNCERTAIN                                             #7                              Flowers                                                          All At Once
+264  264  MAURA DOT COM SLASH UNCERTAIN                                             #7            Apple & The Three Oranges                        I'll Give You a Ring (When I Come, If I Come)
+265  265  MAURA DOT COM SLASH UNCERTAIN                                             #7                 Nat Turner Rebellion                                                       Never Too Late
+266  266  MAURA DOT COM SLASH UNCERTAIN                                             #7                       Curtis Harding                                                       Face Your Fear
+267  267  MAURA DOT COM SLASH UNCERTAIN                                             #7                      Charles Stepney                                                      Daddy's Diddies
+268  268  MAURA DOT COM SLASH UNCERTAIN                                             #7                             Mandrill                                                              Chutney
+269  269  MAURA DOT COM SLASH UNCERTAIN                                             #7                         Eddie Chacon                                    Empire (feat. John Carroll Kirby)
+270  270  MAURA DOT COM SLASH UNCERTAIN                                             #7                         O'Donel Levy                                   Didn't I Blow Your Mind This Time?
+271  271  MAURA DOT COM SLASH UNCERTAIN                                             #7                              Parsnip                                                              Duality
+272  272  MAURA DOT COM SLASH UNCERTAIN                                             #7                          Lightheaded                                                   Bright Happy Girls
+273  273  MAURA DOT COM SLASH UNCERTAIN                                             #7                     En Attendant Ana                                                       Same Old Story
+274  274  MAURA DOT COM SLASH UNCERTAIN                                             #7                                 Cola                                                              At Pace
+275  275  MAURA DOT COM SLASH UNCERTAIN                                             #7                             Slippers                                                         Lock You Out
+276  276  MAURA DOT COM SLASH UNCERTAIN                                             #7                        maura dot com                                                      slash uncertain
+277  277  MAURA DOT COM SLASH UNCERTAIN                                             #7                       Vistoso Bosses                                                            Delirious
+278  278  MAURA DOT COM SLASH UNCERTAIN                                             #7                           The System                                            Don't Disturb This Groove
+279  279  MAURA DOT COM SLASH UNCERTAIN                                             #7                   Shakespears Sister                                                                 Stay
+280  280  MAURA DOT COM SLASH UNCERTAIN                                             #7                         The Spinanes                                                             Spitfire
+281  281  MAURA DOT COM SLASH UNCERTAIN                                             #7                      The Raveonettes                                                   Love In a Trashcan
+282  282  MAURA DOT COM SLASH UNCERTAIN                                             #7                            The Kills                                               Fried My Little Brains
+283  283  MAURA DOT COM SLASH UNCERTAIN                                             #7                           Deap Vally                              Baby I Call Hell (Deap Vally's Version)
+284  284  MAURA DOT COM SLASH UNCERTAIN                                             #7                            Animotion                                                            Obsession
+285  285  MAURA DOT COM SLASH UNCERTAIN                                             #7                              Erasure                                                                Stop!
+286  286  MAURA DOT COM SLASH UNCERTAIN                                             #7              Daryl Hall & John Oates                                                         Out of Touch
+287  287  MAURA DOT COM SLASH UNCERTAIN                                             #7                             Nu Shooz                                                         I Can't Wait
+288  288  MAURA DOT COM SLASH UNCERTAIN                                             #7                                Wham!                                                 Everything She Wants
+289  289  MAURA DOT COM SLASH UNCERTAIN                                             #7                        maura dot com                                           That’s That Me Cold Brew-O
+290  290  MAURA DOT COM SLASH UNCERTAIN                                             #7                              Madonna                                                    Deeper and Deeper
+291  291  MAURA DOT COM SLASH UNCERTAIN                                             #7                        Chappell Roan                                                     Good Luck, Babe!
+292  292  MAURA DOT COM SLASH UNCERTAIN                                             #7                         Cotton Candy                                                            M-A-U-R-A

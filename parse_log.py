@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import date
 
 
+# https://senatorjohn.slack.com/archives/C02U38XQY
 filename = "slacklog.txt"
 schedule_filename = "schedule.txt"
 playlist_filename = "playlist.txt"
