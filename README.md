@@ -2,10 +2,18 @@
 
 Scrape the Uncertain FM slack channel and create spotify playlists
 
-# Instructions:
+# New slackdump instructions
+* Install slackdump (brew install slackdump)
+* Run the wizard and create a new channel (I don't really remember how to do this)
+* dump a day of the log: `slackdump dump -time-from=2025-01-11T11:00:00 -time-to=2025-01-12T05:00:00 -o slackdump.zip C02U38XQY`
+** Time in UTC
+* `unzip slackdump.zip`
+* `python3 parse_slackdump.py`
+
+# Old Instructions:
 * Copy a log from the Uncertain FM #live Slack channel
 * Paste into slacklog.txt
-* `python parse_log.py`
+* `python3 parse_slacklog.py`
 * Copy playlist.txt into https://www.spotlistr.com/search/textbox, and create a playlist.
 * Open the new playlist in Spotify
 
@@ -35,6 +43,8 @@ To run it:
 source venv/bin/activate
 python3 parse_log.py
 ```
+
+
 
 
 
