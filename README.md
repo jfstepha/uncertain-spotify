@@ -5,10 +5,13 @@ Scrape the Uncertain FM slack channel and create spotify playlists
 # New slackdump instructions
 * Install slackdump (brew install slackdump)
 * Run the wizard and create a new channel (I don't really remember how to do this)
-* dump a day of the log: `slackdump dump -time-from=2025-01-11T11:00:00 -time-to=2025-01-12T05:00:00 -o slackdump.zip C02U38XQY`
+* dump a day of the log: 
+* `slackdump dump -time-from=2025-01-11T11:00:00 -time-to=2025-01-12T05:00:00 -o slackdump.zip C02U38XQY`
 ** Time in UTC
 * `unzip slackdump.zip`
 * `python3 parse_slackdump.py`
+
+Now it seems like I have to do `source ~/.local/pipx/venvs/pandas/bin/activate`, but there has to be something wrong with my setup.
 
 # Old Instructions:
 * Copy a log from the Uncertain FM #live Slack channel
@@ -35,7 +38,7 @@ To get python working the first time:
 ```
 virtualenv venv
 source venv/bin/activate
-pip install pandas
+pipx install pandas
 ```
 
 To run it:

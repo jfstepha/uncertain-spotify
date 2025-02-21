@@ -26,7 +26,7 @@ shows = ["VERY SELDOM CASUAL", "UNKNOWN FREQUENCIES", "SEEKING THE NIGHTED THRON
         "AMERICAN DEBAUCHERY", "YEAH RIGHT", "DUAL CASSETTE DECK", "TWO HOUR MUSIC FUN RADIO FRIEND HOUR",
         "COVER LOVER", "MAURA DOT COM SLASH UNCERTAIN" ]
 bad_artists = ["Worbler", "Silent g", "Mike McKenzie", "Matt Lavallee", "DJ Senator John Blutarski", "Duane Bruce",
-               "DJ Mike F", "break", "Josh L", "Jeff", "kristen"]
+               "DJ Mike F", "break", "Josh L", "Jeff", "kristen", "maura dot com"]
 
 print("--- parsing schedule ----")
 with open(schedule_filename, 'r',encoding='utf-8') as f:
@@ -79,6 +79,7 @@ with open(filename, 'r',encoding='utf-8') as f:
     time="unknown"
     day = "unknown"
     scheduled_show = "unknown"
+    prev_title = "none"
     for m in msg:
         if 'user' not in m.keys():
             print("no user continuing")
@@ -105,8 +106,11 @@ with open(filename, 'r',encoding='utf-8') as f:
             elif title.upper() in shows:
                 show = title.upper()
                 episode = "unknown"
+            elif title == prev_title:
+                print(f"Skipping duplicate title {title}")
             else:
                 df.loc[i] = [i, time, scheduled_show, show, episode, artist, title]
+                prev_title = title
                 i += 1
         match = re.search('UP NEXT: (.*) (#.*) with', line)
         if match:
