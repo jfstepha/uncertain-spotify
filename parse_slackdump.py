@@ -3,7 +3,30 @@ import pandas as pd
 from datetime import date
 import datetime
 import json
+import subprocess
+import sys
 
+### call slackdump
+# create this string: 
+# `slackdump dump -time-from=2025-01-11T11:00:00 -time-to=2025-01-12T05:00:00 -o slackdump.zip C02U38XQY`
+
+today_str = datetime.datetime.now().strftime("%Y-%m-%d")
+yesterday_str = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+cmd_str = f"slackdump dump -files=false -time-from={yesterday_str}T11:00:00 -time-to={today_str}T05:00:00 -o slackdump.zip C02U38XQY"
+
+result = subprocess.run(cmd_str, shell=True, check=True)
+print("result:", result.returncode)
+if result.returncode != 0:
+    print("error running slackdump")
+    sys.exit(-1)
+
+
+cmd_str = f"unzip slackdump.zip"
+result = subprocess.run(cmd_str, shell=True, check=True)
+print("result:", result.returncode)
+if result.returncode != 0:
+    print("error running unzip")
+    sys.exit(-1)
 
 # https://senatorjohn.slack.com/archives/C02U38XQY
 filename = "C02U38XQY.json"
